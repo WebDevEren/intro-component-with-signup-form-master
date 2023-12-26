@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="left-side">
+      <h1 class="left-side-title">Learn to code by watching others</h1>
+      <p class="left-side-desc">See how experienced developers solve problems in real-time. Watching scripted tutorials
+        is great,
+        but understanding how developers think is invaluable.</p>
+    </div>
+    <div class="right-side">
+      <div class="discount-bar">
+        <p><span class="bold-discount">Try it free 7days</span> then $20/mo. thereafter</p>
+      </div>
+      <form class="right-side-form">
+        <div class="input-group">
+          <div class="input-group__div">
+            <input type="text" placeholder="Name">
+            <img src="images/icon-error.svg" alt="icon">
+          </div>
+          <p>First Name cannot be empty</p>
+        </div>
+        <div class="input-group">
+          <div class="input-group__div">
+            <input type="text" placeholder="Last Name">
+            <img src="images/icon-error.svg" alt="icon">
+          </div>
+          <p>Last Name cannot be empty</p>
+        </div>
+        <div class="input-group">
+          <div class="input-group__div">
+            <input type="email" placeholder="E-mail">
+            <img src="images/icon-error.svg" alt="icon">
+          </div>
+          <p>Looks like this is not an email</p>
+        </div>
+        <div class="input-group">
+          <div class="input-group__div">
+            <input type="password" placeholder="password">
+            <img src="images/icon-error.svg" alt="icon">
+          </div>
+          <p>Password cannot be empty</p>
+        </div>
+        <button type="submit" class="right-side-form-btn">CLAIM YOUR FREE TRIAL</button>
+        <p class="right-side-desc">By clicking the button, you are agreeing to our <a href="#" class="services">Terms
+            and
+            Services</a></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
